@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- unicons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets\style.css" />
+
+    <!-- JQUERY -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- TYPED JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+      integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <title>Jatin Soni</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR LEFT-->
+    <nav class="l-navbar left d-flex flex-column">
+      <div class="container align-middle">
+        <div><a class="navbar-brand logo" href="">Jatin</a></div>
+
+        <div class="d-flex flex-column social_icons">
+          <a
+            class="navbar-brand"
+            href="https://www.linkedin.com/in/jatin-soni-90b598206"
+          >
+            <i class="uil uil-linkedin-alt" href=""></i
+          ></a>
+
+          <a class="navbar-brand" href="https://twitter.com/JatinSoni02"
+            ><i class="uil uil-twitter-alt" href=""></i
+          ></a>
+
+          <a class="navbar-brand" href="https://github.com/jatin-02"
+            ><i class="uil uil-github-alt" href=""></i
+          ></a>
+        </div>
+
+        <div>
+          <a class="navbar-brand mail" href="mailto: jatinsoni1203@gmail.com"
+            ><i class="uil uil-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN -->
+    <div class="center">
+      <!-- NAVBAR TOP -->
+      <div class="menu">
+        <input type="checkbox" id="active" />
+
+        <label for="active" class="menu_btn"
+          ><i class="uil uil-bars"></i
+        ></label>
+
+        <div class="menu_content">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- HOME -->
+      <section id="home">
+        <div class="home_content">
+          <div class="home_img">
+            <img src="assets\images\imageA2.png" alt="" />
+          </div>
+
+          <div class="home_text">
+            <p>Hi, I am</p>
+            <h1>Jatin Soni</h1>
+            <p>And I am a <span class="typing"></span></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="about_content">
+          <div class="about_text">
+            <p>
+              I am a
+              <span>Full-stack web developer & ui/ux designer</span> currently
+              studying computer engineering at Delhi Technological University
+            </p>
+
+            <a class="cv" href="">Download Cv</a>
+          </div>
+
+          <div class="about_img">
+            <img class="img-fluid" src="assets\images\imageA1.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <div class="title"><h1>Skills</h1></div>
+
+        <div class="skills">
+          <div class="skill shadow">
+            <ul>
+              <h1 class="shadow">Frontend</h1>
+              <li>html</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>React js</li>
+            </ul>
+          </div>
+
+          <div class="skill shadow">
+            <ul>
+              <h1 class="shadow">Other</h1>
+              <li>C++</li>
+              <li>Data Structures</li>
+              <li>Algoritham</li>
+              <li>Git & GitHub</li>
+              <li>Adobe Xd</li>
+            </ul>
+          </div>
+
+          <div class="skill shadow">
+            <ul>
+              <h1 class="shadow">Backend</h1>
+              <li>Node js</li>
+              <li>Express</li>
+              <li>Mongo db</li>
+              <li>Firebase</li>
+              <li>Postman</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <div class="title"><h1>Projects</h1></div>
+
+        <div class="boxesContainer">
+          <div class="cardBox">
+            <div class="card shadow">
+              <div class="front">
+                <h3>e-commerce store</h3>
+                <img class="shadow" src="assets\images\imageA3.png" alt="" />
+                <a class="shadow" href="#">Details</a>
+              </div>
+              <div class="back">
+                <p>
+                  e-commerce store developed using React js and firebase. It
+                  includes functionalities like authentication, add to basket,
+                  search product etc.
+                </p>
+                <a class="shadow" href="#">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="boxesContainer">
+          <div class="cardBox">
+            <div class="card shadow">
+              <div class="front">
+                <h3>e-commerce store</h3>
+                <img class="shadow" src="assets\images\imageA3.png" alt="" />
+                <a class="shadow" href="#">Details</a>
+              </div>
+              <div class="back">
+                <p>
+                  e-commerce store developed using React js and firebase. It
+                  includes functionalities like authentication, add to basket,
+                  search product etc.
+                </p>
+                <a class="shadow" href="#">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="boxesContainer">
+          <div class="cardBox">
+            <div class="card shadow">
+              <div class="front">
+                <h3>e-commerce store</h3>
+                <img class="shadow" src="assets\images\imageA3.png" alt="" />
+                <a class="shadow" href="#">Details</a>
+              </div>
+              <div class="back">
+                <p>
+                  e-commerce store developed using React js and firebase. It
+                  includes functionalities like authentication, add to basket,
+                  search product etc.
+                </p>
+                <a class="shadow" href="#">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="boxesContainer">
+          <div class="cardBox">
+            <div class="card shadow">
+              <div class="front">
+                <h3>e-commerce store</h3>
+                <img class="shadow" src="assets\images\imageA3.png" alt="" />
+                <a class="shadow" href="#">Details</a>
+              </div>
+              <div class="back">
+                <p>
+                  e-commerce store developed using React js and firebase. It
+                  includes functionalities like authentication, add to basket,
+                  search product etc.
+                </p>
+                <a class="shadow" href="#">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact_title title">
+          <h1>Get in touch</h1>
+        </div>
+      </section>
+    </div>
+
+    <!-- NAVBAR RIGHT -->
+    <nav class="navbar right d-flex flex-column">
+      <div class="container">
+        <a class="pages" href="#about">About</a>
+        <a class="pages" href="#skills">Skills</a>
+        <a class="pages" href="#projects">Projects</a>
+      </div>
+    </nav>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JS SCRIPT -->
+    <script src="assets\script.js"></script>
+  </body>
+</html>
