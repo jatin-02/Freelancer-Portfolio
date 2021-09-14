@@ -8,6 +8,6 @@ Portfolio website for freelancers developed using HTML, CSS, JavaScript and Boot
   
   <img src="web-images/skillsPage.png" />
   
-  <img src="web-images/projectPage.png" />
+  <img src="web-images/projectsPage.png" />
   
   <img src="web-images/contactPage.png" />
